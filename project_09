@@ -1,14 +1,13 @@
-#include <stdio.h>
+  #include <stdio.h>
  
 int lcm(int, int);
  
 int main()
 {
-    int a, b, result;
+    int a=12, b=30, result;
     int prime[100];
+    
  
-    printf("Enter two numbers: ");
-    scanf("%d%d", &a, &b);
     result = lcm(a, b);
     printf("The LCM of %d and %d is %d\n", a, b, result);
     return 0;
